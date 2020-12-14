@@ -1,0 +1,11 @@
+#header-logo {
+  padding-right: 8%;
+}
+#menu-item-with-logo {
+  /* width: contain; */
+}
+
+.ui.secondary.pointing.menu .item {
+  align-self: center !important;
+  height: 100%;
+}

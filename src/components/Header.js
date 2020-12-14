@@ -12,12 +12,16 @@ class Header extends Component {
     const { activeItem } = this.state;
 
     return (
-      <Menu pointing secondary>
+      <Menu pointing secondary stackable>
         <Menu.Item
           name="home"
           active={activeItem === "home"}
           onClick={this.handleItemClick}
-        />
+          id="menu-item-with-logo"
+        >
+          <img id="header-logo" src="/assets/images/horizontal-logo.png" />
+          Mike Gelber
+        </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item
             name="editorials"
