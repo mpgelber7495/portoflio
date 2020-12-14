@@ -9,3 +9,19 @@
   align-self: center !important;
   height: 100%;
 }
+
+#main-body-container {
+  height: 95vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#career-body-container {
+  background-color: rgb(178, 254, 233);
+}
+
+#career-body-container > h1 {
+  font-size: 40px;
+}

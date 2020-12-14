@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu } from "semantic-ui-react";
+import { Menu, Icon } from "semantic-ui-react";
 
 class Header extends Component {
   constructor(props) {
@@ -24,11 +24,11 @@ class Header extends Component {
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item
-            name="editorials"
-            active={activeItem === "editorials"}
+            name="career"
+            active={activeItem === "career"}
             onClick={this.handleItemClick}
           >
-            Editorials
+            Career
           </Menu.Item>
 
           <Menu.Item
@@ -36,15 +36,15 @@ class Header extends Component {
             active={activeItem === "reviews"}
             onClick={this.handleItemClick}
           >
-            Reviews
+            Code
           </Menu.Item>
 
           <Menu.Item
-            name="upcomingEvents"
-            active={activeItem === "upcomingEvents"}
+            name="creative"
+            active={activeItem === "creative"}
             onClick={this.handleItemClick}
           >
-            Upcoming Events
+            Creative
           </Menu.Item>
         </Menu.Menu>
       </Menu>
