@@ -54,3 +54,7 @@
   display: flex;
   justify-content: center;
 }
+
+#code-body-container {
+  background-color: chartreuse;
+}
