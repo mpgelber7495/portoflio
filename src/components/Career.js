@@ -32,9 +32,18 @@ class Career extends Component {
             </React.Fragment>
           }
         />
+        <div className="flex-center">
+          <div className="career-object-divider"></div>
+        </div>
         <CareerObject
           image="/assets/images/appnexus-logo.png"
-          title="CEO & Co-Founder"
+          title={
+            <React.Fragment>
+              Product Specialist II, Team Lead <br /> Solutions Consultant I{" "}
+              <br />
+              Associate Solutions Consultant
+            </React.Fragment>
+          }
           time="February 2020 - Present"
           description={
             <React.Fragment>
@@ -52,6 +61,9 @@ class Career extends Component {
             </React.Fragment>
           }
         />
+        <div className="flex-center">
+          <div className="career-object-divider"></div>
+        </div>
         <CareerObject
           image="/assets/images/jpm-logo.png"
           title="CEO & Co-Founder"
@@ -72,6 +84,9 @@ class Career extends Component {
             </React.Fragment>
           }
         />
+        <div className="flex-center">
+          <div className="career-object-divider"></div>
+        </div>
       </Container>
     );
   }

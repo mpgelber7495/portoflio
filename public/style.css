@@ -1,3 +1,8 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 #header-logo {
   padding-right: 8%;
 }
@@ -19,7 +24,7 @@
 }
 
 #career-body-container {
-  background-color: rgb(178, 254, 233);
+  background-color: rgb(209, 252, 240);
 }
 
 #career-body-container > h1 {
@@ -30,14 +35,22 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 15%;
 }
 
 .career-object-cover-slide {
-  background-color: rgb(178, 254, 233);
+  background-color: rgb(209, 252, 240);
   text-align: center;
 }
 
 .cover-image-career-object {
-  width: 400px;
+  width: 500px;
+}
+
+.career-object-divider {
+  width: 15%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  border: 2px solid rgb(62, 103, 135);
+  display: flex;
+  justify-content: center;
 }
