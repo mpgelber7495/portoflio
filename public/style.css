@@ -25,3 +25,19 @@
 #career-body-container > h1 {
   font-size: 40px;
 }
+
+.career-object-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+
+.career-object-cover-slide {
+  background-color: rgb(178, 254, 233);
+  text-align: center;
+}
+
+.cover-image-career-object {
+  width: 400px;
+}

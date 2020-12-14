@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
+import CareerObject from "./CareerObject";
 
 class Career extends Component {
   constructor(props) {
@@ -11,17 +12,66 @@ class Career extends Component {
     return (
       <Container fluid id="career-body-container">
         <h1>Career.</h1>
-        <div className="career-object-container">
-          <img src="/assets/images/adhouse-logo.png" />
-          <h3>CEO & Co-Founder</h3>
-        </div>
-
-        <div>
-          <img src="/assets/images/appnexus-logo.png" />
-        </div>
-        <div>
-          <img src="/assets/images/jpm-logo.png" />
-        </div>
+        <CareerObject
+          image="/assets/images/adhouse-logo.png"
+          title="CEO & Co-Founder"
+          time="February 2020 - Present"
+          description={
+            <React.Fragment>
+              <p>
+                I worked with my co-founder on a bootstrapped budget to launch{" "}
+                <a href="www.adhouse.app">AdHouse</a>. We had the idea of making
+                enterprise level digital marketing available to private
+                heatlhcare practices.
+              </p>
+              <p>
+                After learning how to program via a Columbia University
+                Bootcamp, we researched the market, planned the product and then
+                programmed the entire platform ourselves.
+              </p>
+            </React.Fragment>
+          }
+        />
+        <CareerObject
+          image="/assets/images/appnexus-logo.png"
+          title="CEO & Co-Founder"
+          time="February 2020 - Present"
+          description={
+            <React.Fragment>
+              <p>
+                I worked with my co-founder on a bootstrapped budget to launch{" "}
+                <a href="www.adhouse.app">AdHouse</a>. We had the idea of making
+                enterprise level digital marketing available to private
+                heatlhcare practices.
+              </p>
+              <p>
+                After learning how to program via a Columbia University
+                Bootcamp, we researched the market, planned the product and then
+                programmed the entire platform ourselves.
+              </p>
+            </React.Fragment>
+          }
+        />
+        <CareerObject
+          image="/assets/images/jpm-logo.png"
+          title="CEO & Co-Founder"
+          time="February 2020 - Present"
+          description={
+            <React.Fragment>
+              <p>
+                I worked with my co-founder on a bootstrapped budget to launch{" "}
+                <a href="www.adhouse.app">AdHouse</a>. We had the idea of making
+                enterprise level digital marketing available to private
+                heatlhcare practices.
+              </p>
+              <p>
+                After learning how to program via a Columbia University
+                Bootcamp, we researched the market, planned the product and then
+                programmed the entire platform ourselves.
+              </p>
+            </React.Fragment>
+          }
+        />
       </Container>
     );
   }
