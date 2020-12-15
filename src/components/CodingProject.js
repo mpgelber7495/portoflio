@@ -20,7 +20,7 @@ class CodingProject extends Component {
         <div className="eight wide column">
           <div className="ui stackable grid">
             <div className="five wide column">
-              <a href={this.props.github}>
+              <a target="_blank" href={this.props.github}>
                 <h3>
                   Github
                   {this.props.githubPrivate ? (
@@ -35,12 +35,12 @@ class CodingProject extends Component {
               </a>
             </div>
             <div className="five wide column">
-              <a href={this.props.medium}>
+              <a target="_blank" href={this.props.medium}>
                 <h3>Medium</h3>
               </a>
             </div>
             <div className="five wide column">
-              <a href={this.props.demoLink}>
+              <a target="_blank" href={this.props.demoLink}>
                 <h3>Live Demo</h3>
               </a>
             </div>
