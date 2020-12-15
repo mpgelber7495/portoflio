@@ -9,14 +9,18 @@ class CodingProject extends Component {
   render() {
     return (
       <div className="ui stackable grid">
-        <div className="eight wide column">
-          <h1>{this.props.projectName} </h1>
+        {this.props.vidOnLeft ? (
+          <div className="eight wide column">
+            <h1>{this.props.projectName} </h1>
 
-          <video width="480 height=" auto controls>
-            <source src={this.props.videoLink} type="video/mp4" />
-            "Your browser does not support the video tag."
-          </video>
-        </div>
+            <video width="480 height=" auto controls>
+              <source src={this.props.videoLink} type="video/mp4" />
+              "Your browser does not support the video tag."
+            </video>
+          </div>
+        ) : (
+          ""
+        )}
         <div className="eight wide column">
           <div className="ui stackable grid">
             <div className="five wide column">
@@ -49,6 +53,18 @@ class CodingProject extends Component {
             </div>
           </div>
         </div>
+        {this.props.vidOnLeft === false ? (
+          <div className="eight wide column">
+            <h1>{this.props.projectName} </h1>
+
+            <video width="480 height=" auto controls>
+              <source src={this.props.videoLink} type="video/mp4" />
+              "Your browser does not support the video tag."
+            </video>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     );
   }
