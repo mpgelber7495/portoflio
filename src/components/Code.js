@@ -87,27 +87,26 @@ class Code extends Component {
           vidOnLeft={true}
           github="https://github.com/mpgelber7495/meme-me"
           githubPrivate={false}
-          medium="https://medium.com/@mpgelber7495/building-a-multi-player-game-using-firebase-instead-of-a-server-9edbdc397696"
-          demoLink="https://mpgelber7495.github.io/wise-crack/"
-          videoLink="/assets/videos/wisecrack-demo.mp4"
+          demoLink="https://meme-me-app.herokuapp.com/"
+          videoLink="/assets/videos/meme-demo.webm"
           projectDescription={
             <React.Fragment>
               <h3>Overview</h3>
               <p>
-                Wise Crack is a multi-player game that is similar to the popular
-                game, Cards Against Humanity, but players enter their own
-                phrases.
+                Meme-me is another bootcamp project. It's a social platform
+                where users can upload an image and allow other users to create
+                suggest meme caption ideas for the pictures.
                 <br />
-                <br /> Wise Crack was a group project for the Columbia Full
-                Stack Bootcamp. We hadn't yet learned about building
-                servers/APIs so we got creative and leveraged some interesting
-                Firebase functions that are powered by websockets.
+                <br /> Meme-me utilizes a customized Auth0 integration
                 <br />
                 <br /> I strongly recommend reading the Medium article to
                 understand how we made this game work without a server.
               </p>
               <h3>Technologies Used</h3>
-              <p>Firebase Cloud Firestore, JQuery, Bootstrap, CardCast API</p>
+              <p>
+                Nodejs, Auth0, Passport.js, Sequelize, Handlebars, MySQL,
+                Heroku, Expressjs
+              </p>
             </React.Fragment>
           }
         />
