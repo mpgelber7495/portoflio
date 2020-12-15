@@ -55,6 +55,18 @@
   justify-content: center;
 }
 
+/* Coding section */
+
 #code-body-container {
   background-color: chartreuse;
+}
+
+.code-languages-container {
+  height: 200px;
+  margin-top: 2%;
+}
+
+i {
+  font-size: 5em;
+  margin: 2%;
 }
