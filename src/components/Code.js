@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
+import CodingProject from "./CodingProject";
 
 class Code extends Component {
   constructor(props) {
@@ -22,54 +23,35 @@ class Code extends Component {
           <i class="devicon-mysql-plain-wordmark"></i>
           <i class="devicon-css3-plain-wordmark"></i>
         </div>
-        <div className="ui stackable grid">
-          <div className="eight wide column">
-            <h1>AdHouse </h1>
-
-            <video width="480 height=" auto controls>
-              <source src="/assets/videos/adhouse-demo.mp4" type="video/mp4" />
-              "Your browser does not support the video tag."
-            </video>
-          </div>
-          <div className="eight wide column">
-            <div className="ui stackable grid">
-              <div className="five wide column">
-                <a href="https://github.com/mpgelber7495/adhouse-platform">
-                  <h3>
-                    Github
-                    <br />
-                    (private)
-                  </h3>
-                </a>
-              </div>
-              <div className="five wide column">
-                <a href="https://medium.com/@mpgelber7495/adhouse-why-we-built-it-2d1e3cf24930">
-                  <h3>Medium</h3>
-                </a>
-              </div>
-              <div className="five wide column">
-                <a href="https://adhouse-platform.appspot.com/">
-                  <h3>Live Demo</h3>
-                </a>
-              </div>
-              <div className="sixteen wide column">
-                <h3>Overview</h3>
-                <p>
-                  AdHouse allows health care practices to advertise on the
-                  internet. The ultra-simplified workflow puts the power of
-                  zipcode and health insurance provider targeting at the
-                  finger-tips of today's doctors.
-                </p>
-                <h3>Technologies Used</h3>
-                <p>
-                  ReactJS, Node w/ Express, Google App Engine, Google Vision
-                  API, Google Places API, Google KMS, Google CI/CD, PostgresSQL,
-                  Stripe, AppNexus, Prerender.io, Contentful
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CodingProject
+          projectName="AdHouse"
+          github="https://github.com/mpgelber7495/adhouse-platform"
+          githubPrivate={true}
+          medium="https://medium.com/@mpgelber7495/adhouse-why-we-built-it-2d1e3cf24930"
+          demoLink="https://adhouse-platform.appspot.com/"
+          videoLink="/assets/videos/adhouse-demo.mp4"
+          projectDescription={
+            <React.Fragment>
+              <h3>Overview</h3>
+              <p>
+                AdHouse allows health care practices to advertise on the
+                internet. The ultra-simplified workflow puts the power of
+                zipcode and health insurance provider targeting at the
+                finger-tips of today's doctors.
+                <br />
+                <br /> AdHouse also leverages machine learning to automate the
+                creation of practice's advertisements. AdHouse is a
+                fully-productionalized application with clients and revenue.
+              </p>
+              <h3>Technologies Used</h3>
+              <p>
+                ReactJS, Node w/ Express, Google App Engine, Google Vision API,
+                Google Places API, Google KMS, Google CI/CD, PostgresSQL,
+                Stripe, AppNexus, Prerender.io, Contentful, Algolia
+              </p>
+            </React.Fragment>
+          }
+        />
       </Container>
     );
   }
