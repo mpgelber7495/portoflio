@@ -14,7 +14,7 @@ class Career extends Component {
         <div>
           <h1>Creative</h1>
         </div>
-        <div className="tyso-holder">
+        <div className="creative-heading-holder">
           <h3>Take Your Shoes Off</h3>
         </div>
         <div>
@@ -29,7 +29,9 @@ class Career extends Component {
             , a popular NYC cover band. In our prime, we played one show per
             week at popular venues across New York City (i.e. Bowery Electric,
             Red Lion, The Bitter End, Arlene's Grocery, Piano's, Session 73,
-            Willie McBrides).
+            Willie McBrides) all while working full-time jobs. We're most well
+            known for selling out Friday & Saturday night back-to-backs at the
+            Bowery Electric with lines down the block.
             <br />
             <br />
             Take Your Shoes Off also has three singles released across all
@@ -58,6 +60,30 @@ class Career extends Component {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+          </div>
+        </div>
+        <div className="creative-heading-holder">
+          <h3>Miscellaneous</h3>
+        </div>
+        <div className="ui stackable grid">
+          <div className="eight wide column">
+            <p>I have quite a few passions outside of music:</p>
+            <ul>
+              <li>Painting</li>
+              <li>Surfing</li>
+              <li>Craigslist Trading</li>
+              <li>Traveling</li>
+            </ul>
+          </div>
+          <div className="eight wide column">
+            <h4>My recent trip to Puerto Rico</h4>
+            <video width="480 height=" auto controls>
+              <source
+                src="https://storage.googleapis.com/adhouse-demo-videos/Puerto%20Rico%20Take%203.mp4"
+                type="video/mp4"
+              />
+              "Your browser does not support the video tag."
+            </video>
           </div>
         </div>
       </Container>
