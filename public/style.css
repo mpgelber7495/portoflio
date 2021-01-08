@@ -86,3 +86,12 @@ i {
   margin-right: 9%;
   margin-bottom: 7%;
 }
+
+/* Footer */
+
+#footer {
+  height: 30vh;
+  background-color: rgb(63, 59, 59);
+  font-size: 5em;
+  color: white;
+}
