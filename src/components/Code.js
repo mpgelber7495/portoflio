@@ -30,7 +30,7 @@ class Code extends Component {
           githubPrivate={true}
           medium="https://medium.com/@mpgelber7495/adhouse-why-we-built-it-2d1e3cf24930"
           demoLink="https://adhouse-platform.appspot.com/"
-          videoLink="/assets/videos/adhouse-demo.mp4"
+          videoLink="https://storage.googleapis.com/adhouse-demo-videos/Buying%20ads%20on%20AdHouse.mp4"
           projectDescription={
             <React.Fragment>
               <h3>Overview</h3>
@@ -60,7 +60,7 @@ class Code extends Component {
           githubPrivate={false}
           medium="https://medium.com/@mpgelber7495/building-a-multi-player-game-using-firebase-instead-of-a-server-9edbdc397696"
           demoLink="https://mpgelber7495.github.io/wise-crack/"
-          videoLink="/assets/videos/wisecrack-demo.mp4"
+          videoLink="https://storage.googleapis.com/adhouse-demo-videos/wisecrack-demo.mp4"
           projectDescription={
             <React.Fragment>
               <h3>Overview</h3>
@@ -88,7 +88,7 @@ class Code extends Component {
           github="https://github.com/mpgelber7495/meme-me"
           githubPrivate={false}
           demoLink="https://meme-me-app.herokuapp.com/"
-          videoLink="/assets/videos/meme-demo.webm"
+          videoLink="https://storage.googleapis.com/adhouse-demo-videos/Meme-ME%20(1).webm"
           projectDescription={
             <React.Fragment>
               <h3>Overview</h3>

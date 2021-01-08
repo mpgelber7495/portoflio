@@ -21,8 +21,8 @@ class Career extends Component {
               <p>
                 I worked with my co-founder on a bootstrapped budget to launch{" "}
                 <a href="www.adhouse.app">AdHouse</a>. We had the idea of making
-                enterprise level digital marketing available to private
-                heatlhcare practices.
+                enterprise level digital marketing capabilites available to
+                private heatlhcare practices.
               </p>
               <p>
                 After learning how to program via a Columbia University
