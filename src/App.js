@@ -5,6 +5,7 @@ import "./App.css";
 import Body from "./components/Body";
 import Career from "./components/Career";
 import Code from "./components/Code";
+import Creative from "./components/Creative";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Body />
       <Career />
       <Code />
+      <Creative />
     </div>
   );
 }

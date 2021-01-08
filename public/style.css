@@ -70,3 +70,19 @@ i {
   font-size: 5em;
   margin: 2%;
 }
+
+/* creative area */
+#creative-body-container {
+  padding-top: 20px !important;
+  background-color: rgba(0, 0, 255, 0.119);
+}
+
+.tyso-holder {
+  margin-top: 2%;
+}
+
+.tyso-description {
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 7%;
+}
