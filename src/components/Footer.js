@@ -13,13 +13,18 @@ class Footer extends Component {
       <Container fluid id="footer">
         {" "}
         <div className="ui stackable grid">
-          <div className="eight wide column">
-            <a href="https://github.com/mpgelber7495" target="_blank">
+          <div className="eight wide column footer-link-container">
+            <a
+              href="https://github.com/mpgelber7495"
+              className="footer-links"
+              target="_blank"
+            >
               <i class="github square icon"></i>
             </a>
           </div>
-          <div className="eight wide column">
+          <div className="eight wide column footer-link-container">
             <a
+              className="footer-links"
               href="https://www.linkedin.com/in/michael-gelber-290329a5/"
               target="_blank"
             >

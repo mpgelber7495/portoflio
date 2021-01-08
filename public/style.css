@@ -93,5 +93,12 @@ i {
   height: 30vh;
   background-color: rgb(63, 59, 59);
   font-size: 5em;
+}
+
+.footer-links {
   color: white;
+}
+
+.footer-link-container {
+  margin-top: 10%;
 }
