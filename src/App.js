@@ -6,6 +6,7 @@ import Body from "./components/Body";
 import Career from "./components/Career";
 import Code from "./components/Code";
 import Creative from "./components/Creative";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Career />
       <Code />
       <Creative />
+      <Footer />
     </div>
   );
 }

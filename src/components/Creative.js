@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
 import CareerObject from "./CareerObject";
 
-class Career extends Component {
+class Creative extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -91,4 +91,4 @@ class Career extends Component {
   }
 }
 
-export default Career;
+export default Creative;
