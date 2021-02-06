@@ -14,8 +14,9 @@ class Creative extends Component {
         <div>
           <h1>Creative</h1>
         </div>
+        <div className="creative-container">
         <div className="creative-heading-holder">
-          <h3>Take Your Shoes Off</h3>
+          <h2>Take Your Shoes Off</h2>
         </div>
         <div>
           <p className="tyso-description">
@@ -44,17 +45,21 @@ class Creative extends Component {
           <div className="eight wide column">
             <iframe
               src="https://open.spotify.com/embed/artist/058NPzOuHAJ8M9z1jYv98E"
-              width="300"
-              height="380"
+              // width="300"
+              // height="380"
+              height="100%"
+              width="100%"
               frameborder="0"
               allowtransparency="true"
               allow="encrypted-media"
             ></iframe>
           </div>
-          <div className="eight wide column">
+          <div className="eight wide column iframe-container">
             <iframe
-              width="560"
-              height="315"
+              // width="560"
+              // height="315"
+              height="100%"
+              width="100%"
               src="https://www.youtube.com/embed/6u9eyXfMobI"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -62,12 +67,14 @@ class Creative extends Component {
             ></iframe>
           </div>
         </div>
+        </div>
+        <div className="creative-container">
         <div className="creative-heading-holder">
-          <h3>Miscellaneous</h3>
+          <h2>Miscellaneous</h2>
         </div>
         <div className="ui stackable grid">
           <div className="eight wide column">
-            <p>I have quite a few passions outside of music:</p>
+            <p className="tyso-description"> I have quite a few passions outside of music:</p>
             <ul>
               <li>Painting</li>
               <li>Surfing</li>
@@ -76,7 +83,7 @@ class Creative extends Component {
             </ul>
           </div>
           <div className="eight wide column">
-            <h4>My recent trip to Puerto Rico</h4>
+            <p className="tyso-description">My recent trip to Puerto Rico</p>
             <video width="480 height=" auto controls>
               <source
                 src="https://storage.googleapis.com/adhouse-demo-videos/Puerto%20Rico%20Take%203.mp4"
@@ -85,6 +92,7 @@ class Creative extends Component {
               "Your browser does not support the video tag."
             </video>
           </div>
+        </div>
         </div>
       </Container>
     );

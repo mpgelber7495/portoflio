@@ -33,7 +33,7 @@ class Code extends Component {
           videoLink="https://storage.googleapis.com/adhouse-demo-videos/Buying%20ads%20on%20AdHouse.mp4"
           projectDescription={
             <React.Fragment>
-              <h3>Overview</h3>
+              {/* <h3>Overview</h3> */}
               <p>
                 AdHouse allows health care practices to advertise on the
                 internet. The ultra-simplified workflow puts the power of
@@ -63,7 +63,7 @@ class Code extends Component {
           videoLink="https://storage.googleapis.com/adhouse-demo-videos/wisecrack-demo.mp4"
           projectDescription={
             <React.Fragment>
-              <h3>Overview</h3>
+              {/* <h3>Overview</h3> */}
               <p>
                 Wise Crack is a multi-player game that is similar to the popular
                 game, Cards Against Humanity, but players enter their own
