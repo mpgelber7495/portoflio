@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Menu, Icon } from "semantic-ui-react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Header extends Component {
   constructor(props) {
@@ -23,29 +24,33 @@ class Header extends Component {
           Mike Gelber
         </Menu.Item>
         <Menu.Menu position="right">
-          <Menu.Item
-            name="career"
-            active={activeItem === "career"}
-            onClick={this.handleItemClick}
-          >
-            Career
-          </Menu.Item>
-
-          <Menu.Item
-            name="reviews"
-            active={activeItem === "reviews"}
-            onClick={this.handleItemClick}
-          >
-            Code
-          </Menu.Item>
-
-          <Menu.Item
-            name="creative"
-            active={activeItem === "creative"}
-            onClick={this.handleItemClick}
-          >
-            Creative
-          </Menu.Item>
+          <AnchorLink href="#career-body-container">
+            <Menu.Item
+              name="career"
+              active={activeItem === "career"}
+              onClick={this.handleItemClick}
+            >
+              Career
+            </Menu.Item>
+          </AnchorLink>
+          <AnchorLink href="#code-body-container">
+            <Menu.Item
+              name="reviews"
+              active={activeItem === "reviews"}
+              onClick={this.handleItemClick}
+            >
+              Code
+            </Menu.Item>
+          </AnchorLink>
+          <AnchorLink href="#creative-body-container">
+            <Menu.Item
+              name="creative"
+              active={activeItem === "creative"}
+              onClick={this.handleItemClick}
+            >
+              Creative
+            </Menu.Item>
+          </AnchorLink>
         </Menu.Menu>
       </Menu>
     );
