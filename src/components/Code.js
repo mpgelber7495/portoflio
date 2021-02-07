@@ -39,8 +39,9 @@ class Code extends Component {
           projectDescription={
             <React.Fragment>
               <p>
-                AdHouse allows health care practices to leverage powerful,
-                tactically-targeted digital advertising.
+                AdHouse is a productionalized platform that allows health care
+                practices to leverage powerful, tactically-targeted digital
+                advertising.
               </p>
               <h3 className="technologies-used">Technologies Used</h3>
               <p>
