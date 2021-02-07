@@ -44,19 +44,17 @@ class Career extends Component {
               Associate Solutions Consultant
             </React.Fragment>
           }
-          time="February 2020 - Present"
+          time="August 2019 - February 2020"
           description={
             <React.Fragment>
               <p>
-                I worked with my co-founder on a bootstrapped budget to launch{" "}
-                <a href="www.adhouse.app">AdHouse</a>. We had the idea of making
-                enterprise level digital marketing available to private
-                heatlhcare practices.
+                At AppNexus I worked on various teams to provide exceptional
+                experiences for key clients. I worked with clients to help them
+                best leverage the platform for their business needs.
               </p>
               <p>
-                After learning how to program via a Columbia University
-                Bootcamp, we researched the market, planned the product and then
-                programmed the entire platform ourselves.
+                I also worked to build tools that automate job functions and
+                fill product gaps.
               </p>
             </React.Fragment>
           }
@@ -66,20 +64,18 @@ class Career extends Component {
         </div>
         <CareerObject
           image="/assets/images/jpm-logo.png"
-          title="CEO & Co-Founder"
-          time="February 2020 - Present"
+          title="Wealth Management Analyst"
+          time="Summer 2016 & July 2017 – January 2018"
           description={
             <React.Fragment>
               <p>
-                I worked with my co-founder on a bootstrapped budget to launch{" "}
-                <a href="www.adhouse.app">AdHouse</a>. We had the idea of making
-                enterprise level digital marketing available to private
-                heatlhcare practices.
+                At J.P. Morgan I worked with bankers and investors to manage the
+                finances of ultra high net worth individual and families.
               </p>
               <p>
-                After learning how to program via a Columbia University
-                Bootcamp, we researched the market, planned the product and then
-                programmed the entire platform ourselves.
+                I began using VBA to build tools that automated the analyst job
+                function. The pleasure I got from building these tools led me to
+                persue a job in tech.
               </p>
             </React.Fragment>
           }
