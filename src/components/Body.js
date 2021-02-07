@@ -13,9 +13,9 @@ class Body extends Component {
       <Container fluid id="main-body-container">
         <Typing speed={60}>
           <Typing.Delay ms={500} />
-          <h1>
+          <h5>
             Welcome to My <Typing.Backspace count={3} /> Mike's Website!
-          </h1>
+          </h5>
         </Typing>
       </Container>
     );
