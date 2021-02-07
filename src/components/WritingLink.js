@@ -12,9 +12,9 @@ class WritingLink extends Component {
         <div>
           <a target="_blank" href={this.props.link}>
             <li className="words-title">
-              <i class="quote left icon"></i>
+              <i className="quote left icon"></i>
               {this.props.title}
-              <i class="quote right icon"></i>
+              <i className="quote right icon"></i>
             </li>
           </a>
         </div>

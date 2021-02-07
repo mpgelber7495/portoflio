@@ -97,6 +97,7 @@ h1 {
 
 #code-body-container {
   background-color: white;
+  margin-bottom: 9%;
 }
 
 .secondary-heading-container {
@@ -145,6 +146,17 @@ p {
   font-size: 1.2em;
   margin: 1.4%;
   list-style-type: none;
+  color: black;
+}
+.words-title:hover {
+  color: rgb(7, 7, 157);
+}
+
+.quote.right {
+  margin-left: 0.5%;
+}
+.quote.left {
+  margin-right: 0.35%;
 }
 /* creative area */
 #creative-body-container {
