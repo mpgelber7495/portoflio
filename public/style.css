@@ -113,6 +113,10 @@ h2 {
 p {
   font-size: 1.2em !important;
 }
+
+.publications-header {
+  margin: 2%;
+}
 /* creative area */
 #creative-body-container {
   padding: 20px 0px !important;

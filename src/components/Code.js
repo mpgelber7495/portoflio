@@ -110,6 +110,10 @@ class Code extends Component {
             </React.Fragment>
           }
         />
+        <div>
+          <h2 className="publications-header">Writings</h2>
+        </div>
+        <div></div>
       </Container>
     );
   }
