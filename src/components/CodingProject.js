@@ -10,40 +10,40 @@ class CodingProject extends Component {
     return (
       <div className="ui stackable grid project-container">
         <div className="sixteen wide column">
-        <h2>{this.props.projectName} </h2>
+          <h2 className="coding-project-name">{this.props.projectName} </h2>
         </div>
         {this.props.vidOnLeft ? (
           <div className="eight wide column">
-             <video width="480 height=" auto controls>
+            <video width="480 height=" auto controls>
               <source src={this.props.videoLink} type="video/mp4" />
               "Your browser does not support the video tag."
             </video>
             <div className="ui stackable grid">
-            <div className="five wide column">
-              <a target="_blank" href={this.props.github}>
-                <h3>
-                  Github
-                  {this.props.githubPrivate ? (
-                    <React.Fragment>
-                      <br />
-                      (private){" "}
-                    </React.Fragment>
-                  ) : (
-                    ""
-                  )}
-                </h3>
-              </a>
-            </div>
-            <div className="five wide column">
-              <a target="_blank" href={this.props.medium}>
-                <h3>Medium</h3>
-              </a>
-            </div>
-            <div className="five wide column">
-              <a target="_blank" href={this.props.demoLink}>
-                <h3>Live Demo</h3>
-              </a>
-            </div>
+              <div className="five wide column">
+                <a target="_blank" href={this.props.github}>
+                  <h3>
+                    Github
+                    {this.props.githubPrivate ? (
+                      <React.Fragment>
+                        <br />
+                        (private){" "}
+                      </React.Fragment>
+                    ) : (
+                      ""
+                    )}
+                  </h3>
+                </a>
+              </div>
+              <div className="five wide column">
+                <a target="_blank" href={this.props.medium}>
+                  <h3>Medium</h3>
+                </a>
+              </div>
+              <div className="five wide column">
+                <a target="_blank" href={this.props.demoLink}>
+                  <h3>Live Demo</h3>
+                </a>
+              </div>
             </div>
           </div>
         ) : (
@@ -90,31 +90,31 @@ class CodingProject extends Component {
               "Your browser does not support the video tag."
             </video>
             <div className="ui stackable grid">
-            <div className="five wide column">
-              <a target="_blank" href={this.props.github}>
-                <h3>
-                  Github
-                  {this.props.githubPrivate ? (
-                    <React.Fragment>
-                      <br />
-                      (private){" "}
-                    </React.Fragment>
-                  ) : (
-                    ""
-                  )}
-                </h3>
-              </a>
-            </div>
-            <div className="five wide column">
-              <a target="_blank" href={this.props.medium}>
-                <h3>Medium</h3>
-              </a>
-            </div>
-            <div className="five wide column">
-              <a target="_blank" href={this.props.demoLink}>
-                <h3>Live Demo</h3>
-              </a>
-            </div>
+              <div className="five wide column">
+                <a target="_blank" href={this.props.github}>
+                  <h3>
+                    Github
+                    {this.props.githubPrivate ? (
+                      <React.Fragment>
+                        <br />
+                        (private){" "}
+                      </React.Fragment>
+                    ) : (
+                      ""
+                    )}
+                  </h3>
+                </a>
+              </div>
+              <div className="five wide column">
+                <a target="_blank" href={this.props.medium}>
+                  <h3>Medium</h3>
+                </a>
+              </div>
+              <div className="five wide column">
+                <a target="_blank" href={this.props.demoLink}>
+                  <h3>Live Demo</h3>
+                </a>
+              </div>
             </div>
           </div>
         ) : (

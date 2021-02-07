@@ -23,9 +23,13 @@ class Code extends Component {
           <i class="devicon-mysql-plain-wordmark"></i>
           <i class="devicon-css3-plain-wordmark"></i>
         </div>
+        <div className="secondary-heading-container">
+          <h2>Coding Projects</h2>
+        </div>
+
         <CodingProject
           projectName="AdHouse"
-          vidOnLeft={true}
+          vidOnLeft={false}
           github="https://github.com/mpgelber7495/adhouse-platform"
           githubPrivate={true}
           medium="https://medium.com/@mpgelber7495/adhouse-why-we-built-it-2d1e3cf24930"
@@ -33,18 +37,11 @@ class Code extends Component {
           videoLink="https://storage.googleapis.com/adhouse-demo-videos/Buying%20ads%20on%20AdHouse.mp4"
           projectDescription={
             <React.Fragment>
-              {/* <h3>Overview</h3> */}
               <p>
-                AdHouse allows health care practices to advertise on the
-                internet. The ultra-simplified workflow puts the power of
-                zipcode and health insurance provider targeting at the
-                finger-tips of today's doctors.
-                <br />
-                <br /> AdHouse also leverages machine learning to automate the
-                creation of practice's advertisements. AdHouse is a
-                fully-productionalized application with clients and revenue.
+                AdHouse allows health care practices to leverage powerful,
+                tactically-targeted digital advertising.
               </p>
-              <h3>Technologies Used</h3>
+              <h3 className="technologies-used">Technologies Used</h3>
               <p>
                 ReactJS, Node w/ Express, Google App Engine, Google Vision API,
                 Google Places API, Google KMS, Google CI/CD, PostgresSQL,
@@ -68,41 +65,26 @@ class Code extends Component {
                 Wise Crack is a multi-player game that is similar to the popular
                 game, Cards Against Humanity, but players enter their own
                 phrases.
-                <br />
-                <br /> Wise Crack was a group project for the Columbia Full
-                Stack Bootcamp. We hadn't yet learned about building
-                servers/APIs so we got creative and leveraged some interesting
-                Firebase functions that are powered by websockets.
-                <br />
-                <br /> I strongly recommend reading the Medium article to
-                understand how we made this game work without a server.
               </p>
-              <h3>Technologies Used</h3>
+              <h3 className="technologies-used">Technologies Used</h3>
               <p>Firebase Cloud Firestore, JQuery, Bootstrap, CardCast API</p>
             </React.Fragment>
           }
         />
         <CodingProject
           projectName="Meme-Me"
-          vidOnLeft={true}
+          vidOnLeft={false}
           github="https://github.com/mpgelber7495/meme-me"
           githubPrivate={false}
           demoLink="https://meme-me-app.herokuapp.com/"
           videoLink="https://storage.googleapis.com/adhouse-demo-videos/Meme-ME%20(1).webm"
           projectDescription={
             <React.Fragment>
-              <h3>Overview</h3>
               <p>
-                Meme-me is another bootcamp project. It's a social platform
-                where users can upload an image and allow other users to create
-                suggest meme caption ideas for the pictures.
-                <br />
-                <br /> Meme-me utilizes a customized Auth0 integration
-                <br />
-                <br /> I strongly recommend reading the Medium article to
-                understand how we made this game work without a server.
+                Meme-me is a social platform where users can upload images they
+                think will make good memes to get ideas for captions.
               </p>
-              <h3>Technologies Used</h3>
+              <h3 className="technologies-used">Technologies Used</h3>
               <p>
                 Nodejs, Auth0, Passport.js, Sequelize, Handlebars, MySQL,
                 Heroku, Expressjs

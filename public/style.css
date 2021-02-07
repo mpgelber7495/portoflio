@@ -33,7 +33,7 @@ h5 {
   font-size: 4em !important;
 }
 #career-body-container {
-  background-color: rgb(171, 157, 129);
+  background-color: rgb(135, 111, 64);
   color: white;
 }
 h1 {
@@ -70,7 +70,7 @@ h1 {
 }
 
 .career-object-cover-slide {
-  background-color: rgb(171, 157, 129);
+  background-color: rgb(135, 111, 64);
   text-align: center;
   width: 70vw;
   padding-top: 5px;
@@ -95,6 +95,17 @@ h1 {
   background-color: white;
 }
 
+.secondary-heading-container {
+  padding-left: 5%;
+}
+.secondary-heading-container > h2 {
+  font-size: 2em !important;
+}
+
+.coding-project-name {
+  text-align: center;
+}
+
 .code-languages-container {
   height: 200px;
   margin-top: 2%;
@@ -112,6 +123,10 @@ h2 {
 }
 p {
   font-size: 1.2em !important;
+}
+
+.technologies-used {
+  text-align: left;
 }
 
 .publications-header {
