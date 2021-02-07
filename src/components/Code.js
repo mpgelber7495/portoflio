@@ -96,6 +96,7 @@ class Code extends Component {
         <div className="secondary-heading-container">
           <h2>Words</h2>
         </div>
+        <i id="keyboard-icon" class="keyboard outline icon"></i>
         <WritingLink
           title="How to Change Link Previews (Open Graph) with a Client-Side Rendered React App Using React Helmet and Prerender.io"
           link="https://medium.com/@mpgelber7495/how-to-change-link-previews-open-graph-with-a-client-side-rendered-react-app-using-react-helmet-ab2a5e2059f7"

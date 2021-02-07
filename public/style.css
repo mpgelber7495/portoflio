@@ -137,9 +137,14 @@ p {
 .publications-header {
   margin: 2%;
 }
+
+#keyboard-icon {
+  font-size: 4em;
+}
 .words-title {
   font-size: 1.2em;
   margin: 1.4%;
+  list-style-type: none;
 }
 /* creative area */
 #creative-body-container {

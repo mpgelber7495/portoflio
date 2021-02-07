@@ -11,7 +11,11 @@ class WritingLink extends Component {
       <React.Fragment>
         <div>
           <a target="_blank" href={this.props.link}>
-            <li className="words-title">{this.props.title}</li>
+            <li className="words-title">
+              <i class="quote left icon"></i>
+              {this.props.title}
+              <i class="quote right icon"></i>
+            </li>
           </a>
         </div>
       </React.Fragment>
