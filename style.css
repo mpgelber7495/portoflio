@@ -1,0 +1,200 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+#header-logo {
+  padding-right: 8%;
+}
+#menu-item-with-logo {
+  /* width: contain; */
+}
+
+.ui.secondary.pointing.menu .item {
+  align-self: center !important;
+  height: 100%;
+}
+
+/* Body Section */
+#main-body-container {
+  height: 60vh;
+  margin-top: 40vh;
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-body-container > h5 {
+  font-size: 20vh;
+  text-align: center;
+}
+h5 {
+  font-size: 4em !important;
+}
+#career-body-container {
+  background-color: rgb(135, 111, 64);
+  color: white;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-size: 4em !important;
+  text-align: left;
+  padding-top: 3% !important;
+  padding-left: 5% !important;
+  margin-bottom: 1% !important;
+}
+/* #career-body-container > h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4em;
+  text-align: left;
+  padding-top: 3%;
+  padding-left: 5%;
+  margin-bottom: 5%;
+} */
+.ui.move.reveal > .hidden.content > h3 {
+  font-size: 1.5em !important;
+}
+.ui.move.reveal > .hidden.content > p {
+  font-size: 1em !important;
+}
+
+.ui.move.reveal > .hidden.content {
+  padding: 5% 10%;
+}
+
+.career-object-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.career-object-cover-slide {
+  background-color: rgb(135, 111, 64);
+  text-align: center;
+  width: 70vw;
+  padding-top: 5px;
+}
+
+.cover-image-career-object {
+  width: 500px;
+}
+
+.career-object-divider {
+  width: 15%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-divider {
+  border: 2px solid black !important;
+}
+
+/* Coding section */
+
+#code-body-container {
+  background-color: white;
+  margin-bottom: 9%;
+}
+
+.secondary-heading-container {
+  padding-left: 5%;
+}
+.secondary-heading-container > h2 {
+  font-size: 2em !important;
+}
+
+.coding-project-name {
+  text-align: left;
+}
+
+.code-languages-container {
+  height: 200px;
+  margin-top: 2%;
+}
+.project-container {
+  padding: 10px 5% !important;
+  margin-top: 2% !important;
+  margin-bottom: 10% !important;
+}
+i {
+  font-size: 5em;
+  margin: 2%;
+}
+h2 {
+  text-align: left;
+}
+p {
+  font-size: 1.2em !important;
+}
+
+.technologies-used {
+  text-align: left;
+}
+
+.publications-header {
+  margin: 2%;
+}
+
+#keyboard-icon {
+  font-size: 4em;
+}
+.words-title {
+  font-size: 1.2em;
+  margin: 1.4%;
+  list-style-type: none;
+  color: black;
+}
+.words-title:hover {
+  color: rgb(7, 7, 157);
+}
+
+.quote.right {
+  margin-left: 0.5%;
+}
+.quote.left {
+  margin-right: 0.35%;
+}
+/* creative area */
+#creative-body-container {
+  padding: 20px 0px !important;
+  background-color: #efaba0;
+}
+.creative-container {
+  padding: 10px 5% !important;
+  margin-bottom: 0% !important;
+}
+.creative-heading-holder {
+  /* margin-top: 2%; */
+}
+
+.tyso-description {
+  margin: 20px 5% !important;
+  text-align: left;
+}
+.iframe-container {
+  height: 300px;
+}
+ul {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+/* Footer */
+
+#footer {
+  /* height: 10vh; */
+  background-color: rgb(63, 59, 59);
+  font-size: 3em;
+}
+
+.footer-links {
+  color: white;
+}
+
+.footer-link-container {
+  margin-top: 20px;
+}
