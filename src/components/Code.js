@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
 import CodingProject from "./CodingProject";
+import WritingLink from "./WritingLink";
 
 class Code extends Component {
   constructor(props) {
@@ -92,10 +93,33 @@ class Code extends Component {
             </React.Fragment>
           }
         />
-        <div>
-          <h2 className="publications-header">Writings</h2>
+        <div className="secondary-heading-container">
+          <h2>Words</h2>
         </div>
-        <div></div>
+        <WritingLink
+          title="How to Change Link Previews (Open Graph) with a Client-Side Rendered React App Using React Helmet and Prerender.io"
+          link="https://medium.com/@mpgelber7495/how-to-change-link-previews-open-graph-with-a-client-side-rendered-react-app-using-react-helmet-ab2a5e2059f7"
+        ></WritingLink>
+        <WritingLink
+          title="A Step-by-Step Guide to Setting Up Selenium-webdriver with Node.js"
+          link="https://medium.com/@mpgelber7495/a-step-by-step-guide-to-setting-up-selenium-webdriver-with-node-js-1167bca35c38"
+        ></WritingLink>
+        <WritingLink
+          title="AdHouse — Why We Built It"
+          link="https://medium.com/@mpgelber7495/adhouse-why-we-built-it-2d1e3cf24930"
+        ></WritingLink>
+        <WritingLink
+          title="Building a Multi-Player Game Using Firebase Instead of a Server"
+          link="https://medium.com/@mpgelber7495/building-a-multi-player-game-using-firebase-instead-of-a-server-9edbdc397696"
+        ></WritingLink>
+        <WritingLink
+          title="How Mike Gelber Turned a Final Project Into a Fully Fledged Company (Not Author)"
+          link="https://bootcamp.cvn.columbia.edu/blog/how-mike-gelber-turned-a-final-project-into-a-fully-fledged-company/"
+        ></WritingLink>
+        <WritingLink
+          title="Contributions to Industrial Microbiology Research"
+          link="https://www.researchgate.net/scientific-contributions/Michael-Gelber-2030144237"
+        ></WritingLink>
       </Container>
     );
   }

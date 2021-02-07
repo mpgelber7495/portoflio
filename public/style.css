@@ -89,6 +89,10 @@ h1 {
   justify-content: center;
 }
 
+.dark-divider {
+  border: 2px solid black !important;
+}
+
 /* Coding section */
 
 #code-body-container {
@@ -103,7 +107,7 @@ h1 {
 }
 
 .coding-project-name {
-  text-align: center;
+  text-align: left;
 }
 
 .code-languages-container {
@@ -112,7 +116,8 @@ h1 {
 }
 .project-container {
   padding: 10px 5% !important;
-  margin-bottom: 5% !important;
+  margin-top: 2% !important;
+  margin-bottom: 10% !important;
 }
 i {
   font-size: 5em;
@@ -131,6 +136,10 @@ p {
 
 .publications-header {
   margin: 2%;
+}
+.words-title {
+  font-size: 1.2em;
+  margin: 1.4%;
 }
 /* creative area */
 #creative-body-container {
