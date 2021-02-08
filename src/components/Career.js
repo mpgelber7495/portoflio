@@ -13,7 +13,7 @@ class Career extends Component {
       <Container fluid id="career-body-container">
         <h1>Career.</h1>
         <CareerObject
-          image="/assets/images/adhouse-logo.png"
+          image="https://i.imgur.com/tlPFW8d.png"
           title="CEO & Co-Founder"
           time="February 2020 - Present"
           description={
@@ -36,7 +36,7 @@ class Career extends Component {
           <div className="career-object-divider"></div>
         </div>
         <CareerObject
-          image="/assets/images/appnexus-logo.png"
+          image="https://i.imgur.com/dC54XMG.png"
           title={
             <React.Fragment>
               Product Specialist II, Team Lead <br /> Solutions Consultant I{" "}
@@ -63,7 +63,7 @@ class Career extends Component {
           <div className="career-object-divider"></div>
         </div>
         <CareerObject
-          image="/assets/images/jpm-logo.png"
+          image="https://i.imgur.com/Gwx4Ydh.png"
           title="Wealth Management Analyst"
           time="Summer 2016 & July 2017 – January 2018"
           description={

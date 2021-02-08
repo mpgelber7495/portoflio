@@ -20,7 +20,7 @@ class Header extends Component {
           onClick={this.handleItemClick}
           id="menu-item-with-logo"
         >
-          <img id="header-logo" src="/assets/images/horizontal-logo.png" />
+          <img id="header-logo" src="https://i.imgur.com/06QKU13.png" />
           Mike Gelber
         </Menu.Item>
         <Menu.Menu position="right">
