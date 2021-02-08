@@ -192,6 +192,14 @@ ul {
   font-size: 1.2em;
   line-height: 1.5;
 }
+
+.travel-video {
+  border: 1px solid #acc6ff;
+}
+
+.travel-vid-description {
+  font-weight: 900;
+}
 /* Footer */
 
 #footer {
