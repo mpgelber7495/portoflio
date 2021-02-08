@@ -24,8 +24,9 @@ class Career extends Component {
               </p>
               <p>
                 My co-founder and I came up with the idea, learned to code via a
-                Columbia University bootcamp and then launched the company on a
-                bootstrapped budget.
+                Columbia University bootcamp and then built and launched the
+                company on a bootstrapped budget. More in the Code section
+                below.
               </p>
             </React.Fragment>
           }
@@ -46,13 +47,14 @@ class Career extends Component {
           description={
             <React.Fragment>
               <p>
-                At AppNexus I worked on various teams to provide exceptional
-                experiences for key clients. I worked with clients to help them
-                best leverage the platform for their business needs.
+                At AppNexus I worked on various teams providing exceptional
+                services for key clients. I'd help clients to get the most from
+                the AppNexus platform based on their business needs.
               </p>
               <p>
-                I also worked to build tools that automate job functions and
-                fill product gaps.
+                Further, I built tools and systems that automate job functions
+                and fill product gaps which were specific to the companies most
+                important clients.
               </p>
             </React.Fragment>
           }
