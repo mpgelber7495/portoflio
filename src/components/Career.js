@@ -14,20 +14,18 @@ class Career extends Component {
         <h1>Career.</h1>
         <CareerObject
           image="https://i.imgur.com/tlPFW8d.png"
-          title="CEO & Co-Founder"
+          title="CEO & Co-Founder (Product & Eng)"
           time="February 2020 - Present"
           description={
             <React.Fragment>
               <p>
-                I worked with my co-founder on a bootstrapped budget to launch{" "}
-                <a href="www.adhouse.app">AdHouse</a>. We had the idea of making
-                enterprise level digital marketing capabilites available to
-                private heatlhcare practices.
+                AdHouse puts the power of digital advertising at the fingertips
+                of health care providers via an effective and simple to use UI.
               </p>
               <p>
-                After learning how to program via a Columbia University
-                Bootcamp, we researched the market, planned the product and then
-                programmed the entire platform ourselves.
+                My co-founder and I came up with the idea, learned to code via a
+                Columbia University bootcamp and then launched the company on a
+                bootstrapped budget.
               </p>
             </React.Fragment>
           }
@@ -82,6 +80,25 @@ class Career extends Component {
         />
         <div className="flex-center">
           <div className="career-object-divider"></div>
+        </div>
+        <div className="career-section-resume-link">
+          <p>
+            For a full look at my professional background, visit my{" "}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/michael-gelber-290329a5/"
+            >
+              linkedin
+            </a>{" "}
+            or download my{" "}
+            <a
+              href="https://storage.googleapis.com/mikes-vids/Gelber%2C%20Michael%20-%20Resume%20-%201.7.2021.pdf"
+              download="MikesResume.pdf"
+            >
+              resume
+            </a>
+            !
+          </p>
         </div>
       </Container>
     );

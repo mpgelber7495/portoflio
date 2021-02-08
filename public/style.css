@@ -89,6 +89,10 @@ h1 {
   justify-content: center;
 }
 
+.career-section-resume-link {
+  padding-bottom: 4%;
+}
+
 .dark-divider {
   border: 2px solid black !important;
 }
