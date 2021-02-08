@@ -33,7 +33,7 @@ h5 {
   font-size: 4em !important;
 }
 #career-body-container {
-  background-color: rgb(235, 200, 2);
+  background-color: #d1d590;
   color: white;
 }
 h1 {
@@ -53,10 +53,10 @@ h1 {
   margin-bottom: 5%;
 } */
 .ui.move.reveal > .hidden.content > h3 {
-  font-size: 1.5em !important;
+  font-size: 1.7em !important;
 }
 .ui.move.reveal > .hidden.content > p {
-  font-size: 1em !important;
+  font-size: 1.3em !important;
 }
 
 .ui.move.reveal > .hidden.content {
@@ -70,7 +70,7 @@ h1 {
 }
 
 .career-object-cover-slide {
-  background-color: rgb(235, 200, 2);
+  background-color: #d1d590;
   text-align: center;
   width: 70vw;
   padding-top: 5px;
