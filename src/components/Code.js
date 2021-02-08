@@ -45,9 +45,10 @@ class Code extends Component {
               </p>
               <h3 className="technologies-used">Technologies Used</h3>
               <p>
-                ReactJS, Node w/ Express, Google App Engine, Google Vision API,
-                Google Places API, Google KMS, Google CI/CD, PostgresSQL,
-                Stripe, AppNexus, Prerender.io, Contentful, Algolia
+                ReactJS, Node w/ Express, Google App Engine, Auth0, Google
+                Vision API, Google Places API, Google KMS, Google CI/CD,
+                PostgresSQL, Stripe, AppNexus, Prerender.io, Contentful,
+                Algolia, and much much more
               </p>
             </React.Fragment>
           }
@@ -66,7 +67,15 @@ class Code extends Component {
               <p>
                 Wise Crack is a multi-player game that is similar to the popular
                 game, Cards Against Humanity, but players enter their own
-                phrases.
+                answers. It was built without a server... how does that work?
+                Read on{" "}
+                <a
+                  href="https://medium.com/@mpgelber7495/building-a-multi-player-game-using-firebase-instead-of-a-server-9edbdc397696"
+                  target="_blank"
+                >
+                  Medium
+                </a>{" "}
+                to see how.
               </p>
               <h3 className="technologies-used">Technologies Used</h3>
               <p>Firebase Cloud Firestore, JQuery, Bootstrap, CardCast API</p>
@@ -84,7 +93,7 @@ class Code extends Component {
             <React.Fragment>
               <p>
                 Meme-me is a social platform where users can upload images they
-                think will make good memes to get ideas for captions.
+                think will make good memes and get ideas from their friends.
               </p>
               <h3 className="technologies-used">Technologies Used</h3>
               <p>

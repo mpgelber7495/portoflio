@@ -49,7 +49,12 @@ class CodingProject extends Component {
           </div>
 
           <div className="eight wide column">
-            <video width="480 height=" auto controls>
+            <video
+              width="480 height="
+              className="coding-project-video"
+              auto
+              controls
+            >
               <source src={this.props.videoLink} type="video/mp4" />
               "Your browser does not support the video tag."
             </video>

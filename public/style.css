@@ -144,6 +144,10 @@ p {
   margin: 2%;
 }
 
+.coding-project-video {
+  border: 2px outset rgb(198, 198, 198);
+}
+
 #keyboard-icon {
   font-size: 4em;
 }
