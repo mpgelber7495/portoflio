@@ -109,6 +109,7 @@ h1 {
 
 .coding-project-name {
   text-align: left;
+  margin-bottom: 4% !important;
 }
 
 .code-languages-container {
@@ -189,6 +190,10 @@ ul {
   /* height: 10vh; */
   background-color: rgb(63, 59, 59);
   font-size: 3em;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .footer-links {

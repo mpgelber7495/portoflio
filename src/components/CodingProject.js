@@ -10,11 +10,10 @@ class CodingProject extends Component {
     return (
       <React.Fragment>
         <div className="ui stackable grid project-container">
-          <div className="sixteen wide column">
-            <h2 className="coding-project-name">{this.props.projectName} </h2>
-          </div>
-
           <div className="eight wide column">
+            <div className="sixteen wide column">
+              <h2 className="coding-project-name">{this.props.projectName} </h2>
+            </div>
             <div className="ui stackable grid">
               <div className="sixteen wide column">
                 {this.props.projectDescription}
