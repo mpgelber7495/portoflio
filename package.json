@@ -16,7 +16,7 @@
     "semantic-ui-react": "^2.0.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage" : "http://mpgelber7495.github.io/portoflio",
+  "homepage" : "https://mikegelber.com",
 
   "scripts": {
     "start": "react-scripts start",
