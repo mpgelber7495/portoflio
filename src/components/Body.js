@@ -14,7 +14,7 @@ class Body extends Component {
         <Typing speed={60}>
           <Typing.Delay ms={500} />
           <h5>
-            Welcome to My <Typing.Backspace count={3} /> Mike's Website!
+            Welcome to Mike's Portf <Typing.Backspace count={6} /> Website!
           </h5>
         </Typing>
       </Container>

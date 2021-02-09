@@ -8,16 +8,20 @@
 }
 #menu-item-with-logo {
   /* width: contain; */
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .ui.secondary.pointing.menu .item {
   align-self: center !important;
   height: 100%;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 /* Body Section */
 #main-body-container {
-  height: 60vh;
+  height: 50vh;
   margin-top: 40vh;
   /* display: flex; */
   text-align: center;
@@ -54,9 +58,21 @@ h1 {
 } */
 .ui.move.reveal > .hidden.content > h3 {
   font-size: 1.7em !important;
+  text-align: left;
 }
 .ui.move.reveal > .hidden.content > p {
   font-size: 1.3em !important;
+  text-align: left;
+}
+
+/* To prevent run off in the career descriptions */
+@media only screen and (max-width: 970px) {
+  .ui.move.reveal > .hidden.content > h3 {
+    font-size: 1.4em !important;
+  }
+  .ui.move.reveal > .hidden.content > p {
+    font-size: 1em !important;
+  }
 }
 
 .ui.move.reveal > .hidden.content {
