@@ -36,6 +36,7 @@
 h5 {
   font-size: 4em !important;
 }
+
 #career-body-container {
   background-color: #eff7db;
   color: black;
@@ -48,6 +49,62 @@ h1 {
   padding-left: 5% !important;
   margin-bottom: 1% !important;
 }
+
+.intro-paragraph {
+  margin: 10%;
+  margin-left: 18%;
+  margin-right: 18%;
+  font-size: 1.2em !important;
+  text-align: center;
+  -webkit-animation: 10s ease 0s normal forwards 1 fadein;
+  animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.intro-arrow-down {
+  margin-top: 3.5% !important;
+  font-size: 2.3em !important;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    transform: translatey(-20px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+}
+
 /* #career-body-container > h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4em;
