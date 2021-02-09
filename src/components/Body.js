@@ -11,6 +11,7 @@ class Body extends Component {
   render() {
     return (
       <Container fluid id="main-body-container">
+        <img className="headshot" src="https://i.imgur.com/52ZqygY.png" />
         <Typing speed={60}>
           <Typing.Delay ms={500} />
           <h5>
