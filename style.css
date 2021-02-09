@@ -28,6 +28,23 @@
   justify-content: center;
   align-items: center;
 }
+.headshot {
+  border-radius: 50%;
+  height: 220px;
+  width: auto;
+  margin-bottom: 3%;
+  margin-top: -37vh;
+  box-sizing: border-box;
+  border: 3px rgb(150, 150, 172) solid;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px;
+  transition: transform 0.5s;
+}
+
+.headshot:hover {
+  transform: scale(1.5);
+}
 
 #main-body-container > h5 {
   font-size: 20vh;
