@@ -37,8 +37,8 @@ h5 {
   font-size: 4em !important;
 }
 #career-body-container {
-  background-color: #d1d590;
-  color: white;
+  background-color: #eff7db;
+  color: black;
 }
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif !important;
@@ -86,7 +86,7 @@ h1 {
 }
 
 .career-object-cover-slide {
-  background-color: #d1d590;
+  background-color: #eff7db;
   text-align: center;
   width: 70vw;
   padding-top: 5px;
@@ -100,7 +100,7 @@ h1 {
   width: 15%;
   margin-top: 8%;
   margin-bottom: 5%;
-  border: 2px solid white;
+  border: 2px solid black;
   display: flex;
   justify-content: center;
 }
