@@ -107,8 +107,11 @@ h1 {
 
 .career-section-resume-link {
   padding-bottom: 4%;
+  text-align: center !important;
 }
-
+.career-section-resume-link > p {
+  text-align: center !important;
+}
 .coding-section-divider {
   margin-top: 1%;
   margin-bottom: 6%;
@@ -202,19 +205,20 @@ p {
 /* creative area */
 #creative-body-container {
   padding: 20px 0px !important;
-  background-color: #efaba0;
+  background-color: #faeae7;
 }
 .creative-container {
   padding: 10px 5% !important;
   margin-bottom: 0% !important;
 }
 .creative-heading-holder {
-  /* margin-top: 2%; */
+  margin-top: 1.5%;
 }
 
 .tyso-description {
-  margin: 20px 5% !important;
+  margin-top: 1.7% !important;
   text-align: left;
+  margin-bottom: 6%;
 }
 .iframe-container {
   height: 300px;
@@ -225,12 +229,18 @@ ul {
   line-height: 1.5;
 }
 
+.creative-object-divider {
+  margin-top: 9%;
+  margin-bottom: 3%;
+}
+
 .travel-video {
   border: 1px solid #acc6ff;
 }
 
 .travel-vid-description {
   font-weight: 900;
+  text-align: center;
 }
 /* Footer */
 

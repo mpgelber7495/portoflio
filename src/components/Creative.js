@@ -78,6 +78,9 @@ class Creative extends Component {
             </div>
           </div>
         </div>
+        <div className="flex-center">
+          <div className="career-object-divider creative-object-divider "></div>
+        </div>
         <div className="creative-container">
           <div className="creative-heading-holder">
             <h2>Miscellaneous</h2>
@@ -89,11 +92,11 @@ class Creative extends Component {
                 I have quite a few passions outside of music:
               </p>
               <ul>
-                <li>Painting</li>
                 <li>Videography/Editing</li>
                 <li>Surfing</li>
                 <li>Craigslist Trading</li>
                 <li>Traveling</li>
+                <li>Painting</li>
                 <li>All things music</li>
               </ul>
             </div>

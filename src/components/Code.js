@@ -25,7 +25,7 @@ class Code extends Component {
           <i class="devicon-css3-plain-wordmark"></i>
         </div>
         <div className="secondary-heading-container">
-          <h2>Coding Projects</h2>
+          {/* <h2>Coding Projects</h2> */}
         </div>
 
         <CodingProject

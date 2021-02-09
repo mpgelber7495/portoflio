@@ -54,7 +54,7 @@ class CodingProject extends Component {
                   {/* <h3>Try It</h3> */}
                   <button className="ui active button primary">
                     <i className="coding-project-icon cogs icon  "></i>
-                    The Demo
+                    Live App
                   </button>
                 </a>
               </div>
