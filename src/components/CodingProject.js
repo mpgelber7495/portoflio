@@ -22,8 +22,12 @@ class CodingProject extends Component {
             <div className="ui stackable grid">
               <div className="five wide column">
                 <a target="_blank" href={this.props.github}>
-                  <h3>
-                    Github
+                  <button className="ui active button primary">
+                    <i className="coding-project-icon github  square icon"></i>
+                    The Code
+                  </button>
+                  {/* <h3>
+                    The Code
                     {this.props.githubPrivate ? (
                       <React.Fragment>
                         <br />
@@ -32,17 +36,26 @@ class CodingProject extends Component {
                     ) : (
                       ""
                     )}
-                  </h3>
+                  </h3> */}
                 </a>
               </div>
               <div className="five wide column">
                 <a target="_blank" href={this.props.medium}>
-                  <h3>Medium</h3>
+                  {/* <h3>Read About It</h3>
+                   */}
+                  <button className="ui active button primary">
+                    <i className="coding-project-icon medium  icon"></i>
+                    The Story
+                  </button>
                 </a>
               </div>
               <div className="five wide column">
                 <a target="_blank" href={this.props.demoLink}>
-                  <h3>Live Demo</h3>
+                  {/* <h3>Try It</h3> */}
+                  <button className="ui active button primary">
+                    <i className="coding-project-icon cogs icon  "></i>
+                    The Demo
+                  </button>
                 </a>
               </div>
             </div>
@@ -59,6 +72,9 @@ class CodingProject extends Component {
               "Your browser does not support the video tag."
             </video>
           </div>
+        </div>
+        <div className="flex-center">
+          <div className="career-object-divider coding-section-divider"></div>
         </div>
       </React.Fragment>
     );

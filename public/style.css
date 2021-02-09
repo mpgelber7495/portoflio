@@ -109,8 +109,9 @@ h1 {
   padding-bottom: 4%;
 }
 
-.dark-divider {
-  border: 2px solid black !important;
+.coding-section-divider {
+  margin-top: 1%;
+  margin-bottom: 6%;
 }
 
 /* Coding section */
@@ -150,6 +151,21 @@ h2 {
 }
 p {
   font-size: 1.2em !important;
+  text-align: left;
+}
+
+.coding-project-icon {
+  font-size: 1.3em !important;
+}
+
+.ui.button.active.primary:hover {
+  background-color: black;
+}
+
+@media only screen and (max-width: 1130px) and (min-width: 767px) {
+  .ui.button.active.primary {
+    font-size: 0.8em !important;
+  }
 }
 
 .technologies-used {

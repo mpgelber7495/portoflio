@@ -12,7 +12,7 @@ class Creative extends Component {
     return (
       <Container fluid id="creative-body-container">
         <div>
-          <h1>Creative</h1>
+          <h1>Creative.</h1>
         </div>
         <div className="creative-container">
           <div>
