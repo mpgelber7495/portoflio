@@ -8,16 +8,20 @@
 }
 #menu-item-with-logo {
   /* width: contain; */
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .ui.secondary.pointing.menu .item {
   align-self: center !important;
   height: 100%;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 /* Body Section */
 #main-body-container {
-  height: 60vh;
+  height: 50vh;
   margin-top: 40vh;
   /* display: flex; */
   text-align: center;
@@ -32,9 +36,10 @@
 h5 {
   font-size: 4em !important;
 }
+
 #career-body-container {
-  background-color: #d1d590;
-  color: white;
+  background-color: #eff7db;
+  color: black;
 }
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif !important;
@@ -44,6 +49,62 @@ h1 {
   padding-left: 5% !important;
   margin-bottom: 1% !important;
 }
+
+.intro-paragraph {
+  margin: 10%;
+  margin-left: 18%;
+  margin-right: 18%;
+  font-size: 1.2em !important;
+  text-align: center;
+  -webkit-animation: 10s ease 0s normal forwards 1 fadein;
+  animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.intro-arrow-down {
+  margin-top: 4% !important;
+  font-size: 2.3em !important;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+    transform: translatey(-20px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+    transform: translatey(0px);
+  }
+}
+
 /* #career-body-container > h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4em;
@@ -54,9 +115,21 @@ h1 {
 } */
 .ui.move.reveal > .hidden.content > h3 {
   font-size: 1.7em !important;
+  text-align: left;
 }
 .ui.move.reveal > .hidden.content > p {
   font-size: 1.3em !important;
+  text-align: left;
+}
+
+/* To prevent run off in the career descriptions */
+@media only screen and (max-width: 970px) {
+  .ui.move.reveal > .hidden.content > h3 {
+    font-size: 1.4em !important;
+  }
+  .ui.move.reveal > .hidden.content > p {
+    font-size: 1em !important;
+  }
 }
 
 .ui.move.reveal > .hidden.content {
@@ -70,7 +143,7 @@ h1 {
 }
 
 .career-object-cover-slide {
-  background-color: #d1d590;
+  background-color: #eff7db;
   text-align: center;
   width: 70vw;
   padding-top: 5px;
@@ -84,17 +157,21 @@ h1 {
   width: 15%;
   margin-top: 8%;
   margin-bottom: 5%;
-  border: 2px solid white;
+  border: 2px solid black;
   display: flex;
   justify-content: center;
 }
 
 .career-section-resume-link {
   padding-bottom: 4%;
+  text-align: center !important;
 }
-
-.dark-divider {
-  border: 2px solid black !important;
+.career-section-resume-link > p {
+  text-align: center !important;
+}
+.coding-section-divider {
+  margin-top: 1%;
+  margin-bottom: 6%;
 }
 
 /* Coding section */
@@ -134,6 +211,21 @@ h2 {
 }
 p {
   font-size: 1.2em !important;
+  text-align: left;
+}
+
+.coding-project-icon {
+  font-size: 1.3em !important;
+}
+
+.ui.button.active.primary:hover {
+  background-color: black;
+}
+
+@media only screen and (max-width: 1130px) and (min-width: 767px) {
+  .ui.button.active.primary {
+    font-size: 0.8em !important;
+  }
 }
 
 .technologies-used {
@@ -170,19 +262,20 @@ p {
 /* creative area */
 #creative-body-container {
   padding: 20px 0px !important;
-  background-color: #efaba0;
+  background-color: #faeae7;
 }
 .creative-container {
   padding: 10px 5% !important;
   margin-bottom: 0% !important;
 }
 .creative-heading-holder {
-  /* margin-top: 2%; */
+  margin-top: 1.5%;
 }
 
 .tyso-description {
-  margin: 20px 5% !important;
+  margin-top: 1.7% !important;
   text-align: left;
+  margin-bottom: 6%;
 }
 .iframe-container {
   height: 300px;
@@ -193,12 +286,18 @@ ul {
   line-height: 1.5;
 }
 
+.creative-object-divider {
+  margin-top: 9%;
+  margin-bottom: 3%;
+}
+
 .travel-video {
   border: 1px solid #acc6ff;
 }
 
 .travel-vid-description {
   font-weight: 900;
+  text-align: center;
 }
 /* Footer */
 
