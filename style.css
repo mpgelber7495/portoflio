@@ -130,12 +130,15 @@ h1 {
   padding-left: 5%;
   margin-bottom: 5%;
 } */
+/* .ui.move.reveal > .hidden.content {
+  padding-bottom: 10%;
+} */
 .ui.move.reveal > .hidden.content > h3 {
-  font-size: 1.7em !important;
+  font-size: 1.6em !important;
   text-align: left;
 }
 .ui.move.reveal > .hidden.content > p {
-  font-size: 1.3em !important;
+  font-size: 1.2em !important;
   text-align: left;
 }
 
