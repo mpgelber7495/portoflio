@@ -83,13 +83,13 @@ class Creative extends Component {
         </div>
         <div className="creative-container">
           <div className="creative-heading-holder">
-            <h2>Miscellaneous</h2>
+            <h2>The Other Stuff...</h2>
           </div>
           <div className="ui stackable grid">
             <div className="eight wide column">
               <p className="tyso-description">
                 {" "}
-                I have quite a few passions outside of music:
+                I have quite a few other interesting passions:
               </p>
               <ul>
                 <li>Videography/Editing</li>
@@ -97,7 +97,10 @@ class Creative extends Component {
                 <li>Craigslist Trading</li>
                 <li>Traveling</li>
                 <li>Painting</li>
-                <li>All things music</li>
+                <li>All Things Music</li>
+                <li>Learning About Machine Learning</li>
+                <li>Crypto Trading Bots</li>
+                <li>Math</li>
               </ul>
             </div>
             <div className="eight wide column">
