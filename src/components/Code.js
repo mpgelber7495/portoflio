@@ -66,7 +66,7 @@ class Code extends Component {
               {/* <h3>Overview</h3> */}
               <p>
                 Wise Crack is a multi-player game that is similar to the popular
-                game, Cards Against Humanity, but players enter their own
+                game, "Cards Against Humanity", but players enter their own
                 answers. It was built without a server... how does that work?
                 Read on{" "}
                 <a
